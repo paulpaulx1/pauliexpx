@@ -1,19 +1,28 @@
+<!-- App.svelte -->
 <script>
   import ImageCard from './lib/ImageCard.svelte';
+  import ImageOverlay from './lib/ImageOverlay.svelte';
   import { paintings } from './data/paintings';
   
-  let selectedImage = null;
-
+  let selectedPainting = null;
 </script>
 
 <main>
-  <h1>paulpaulxart</h1>
+  <h1>paulmneenan@gmail.com</h1>
   <div class="gallery">
     {#each paintings as painting}
-      <ImageCard {...painting} on:click={() => selectedImage = painting} />
+      <ImageCard {...painting} on:click={() => selectedPainting = painting} />
     {/each}
   </div>
 </main>
+
+{#if selectedPainting}
+  <ImageOverlay
+    painting={selectedPainting}
+    paintings={paintings}
+    onClose={() => selectedPainting = null}
+  />
+{/if}
 
 <style>
   main {

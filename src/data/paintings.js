@@ -6,7 +6,7 @@ export const paintings = [
   },
   {
     imageUrl: "/nwr2.jpeg",
-    title: "nw 2",
+    title: "nwr2",
     description: "from the north woods. oil on panel. 18x24",
   },
   {
@@ -17,26 +17,26 @@ export const paintings = [
   {
     imageUrl: "/sf2.jpeg",
     title: "shohola falls 2",
-    description: "a pike county sequel. oil on panel. 18x24",
+    description: "the sequel to shohola falls 1. oil on panel. 18x24",
   },
   {
     imageUrl: "/nwr.jpeg",
-    title: "reflector",
+    title: "nwr1",
     description: "from the north woods. oil on panel. 18x24",
   },
   {
     imageUrl: "/behindthemet.jpeg",
-    title: "tree behind the met",
+    title: "tbtmm",
     description: "trees behind the met museum. oil on panel. 24x30",
   },
   {
     imageUrl: "/waldensamkeit.jpeg",
-    title: "waldeinsamkeit",
+    title: "wsk",
     description: "from the north woods. oil on panel. 24x30",
   },
   {
     imageUrl: "/object_8.jpeg",
-    title: "object 8",
+    title: "obj8",
     description: "8th one in the series. laminate and laquer on plywood chopped and joined.",
   },
   {
