@@ -60,7 +60,7 @@ export const paintings = [
     description: "from the north woods. oil on panel. 24x30",
   },
   {
-    fullImageUrl: "https://utfs.io/f/3xlzV3t1igosxTB90i8s71dhvEqOpizGYHT8b6crRtl0SaUQ",
+    fullImageUrl: "https://utfs.io/f/3xlzV3t1igosO6sRjS3JMXVtQ7zjE4TweHYGm6ol1Bgbr20F",
     title: "obj8",
     blurImageUrl: "https://utfs.io/f/3xlzV3t1igosg6GKAUPzI7YrPjLg6BmCxvh9yskT1O0cnVfH",
     description: "8th one in the series. laminate and laquer on plywood chopped and joined.",
@@ -72,7 +72,7 @@ export const paintings = [
     description: "matte medium, plywood - chopped and joined. 12x16",
   },
   {
-    fullImageUrl: "https://utfs.io/f/3xlzV3t1igos9SPoBpk4V8YxiHMRs3IKaTpoFqPD6tuCmLcW",
+    fullImageUrl: "https://utfs.io/f/3xlzV3t1igos5wGSQysvRXlLDoJWIBuyktcQE3C7peq4Zia1",
     title: "wave columns",
     blurImageUrl: "https://utfs.io/f/3xlzV3t1igos0ZKn4vcik9TZNeEl6W2pYsO5d3qVGLHuyocA",
     description: "laminate on plywood. chopped shaped and joined",
