@@ -25,6 +25,9 @@
         alt={title}
         on:load={handleLoad}
         class:loaded={imageLoaded}
+        loading="lazy"
+        decoding="async"
+        fetchpriority="low"
       />
     </div>
   
