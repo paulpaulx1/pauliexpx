@@ -21,11 +21,21 @@ async function compressImages() {
   
   for(let file of files) {
     if(file.match(/\.(jpg|jpeg|png)$/i)) {
-      console.log(`Compressing ${file}...`);
+      const baseName = path.parse(file).name;
+      
+      // Tiny blur version (20-50KB)
+      await sharp(path.join(sourceDir, file))
+        .resize(400, null, { withoutEnlargement: true })
+        .jpeg({ quality: 20 })
+        .toFile(path.join(targetDir, `${baseName}-blur.jpg`));
+
+      // Main version (~500KB)
       await sharp(path.join(sourceDir, file))
         .resize(1200, null, { withoutEnlargement: true })
         .jpeg({ quality: 80 })
-        .toFile(path.join(targetDir, file));
+        .toFile(path.join(targetDir, `${baseName}-full.jpg`));
+      
+      console.log(`Compressed ${file}`);
     }
   }
 }

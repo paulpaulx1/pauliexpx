@@ -39,7 +39,7 @@
 
     <div class="image-container">
       <img 
-        src={painting.imageUrl} 
+        src={painting.fullImageUrl} 
         alt={painting.title} 
       />
       <div class="info">
