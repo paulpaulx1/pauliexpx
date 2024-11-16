@@ -42,7 +42,7 @@ export const paintings = [
     description: "the sequel to shohola falls 1. oil on panel. 18x24",
   },
   {
-    fullImageUrl: "https://utfs.io/f/3xlzV3t1igos2LbOsRxjNpnMDQE6AcrC14gSaBOtfwlxsUdq",
+    fullImageUrl: "https://utfs.io/f/3xlzV3t1igosfg3OyE7XDCsYEwqlHNUnyjiSvTdoP1uLgcZK",
     title: "nwr1",
     blurImageUrl: "https://utfs.io/f/3xlzV3t1igosDv66HeO5tyNdoMuDiLSHJE2XPz9C7b8hxngW",
     description: "from the north woods. oil on panel. 18x24",

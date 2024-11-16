@@ -8,7 +8,7 @@
 </script>
 
 <main>
- <h1>Paul Neenan</h1>
+ <h1>paulmneenan@gmail.com</h1>
  <div class="gallery">
    {#each paintings as painting}
      <ImageCard 
@@ -30,16 +30,7 @@
  />
 {/if}
 
-<!-- <main>
-  <h1>Paul Neenan</h1>
-  <div class="gallery">
-    {#each paintings as painting}
-      <div class="gallery-item">
-        <ImageCard {...painting} on:click={() => selectedPainting = painting} />
-      </div>
-    {/each}
-  </div>
-</main> -->
+
 
 <style>
   main {

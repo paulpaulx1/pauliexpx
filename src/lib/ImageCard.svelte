@@ -12,6 +12,7 @@
     <img
       src={blurImageUrl}
       class="blur-thumb"
+      class:hidden={fullImageLoaded}  
       alt=""
     />
     <img
@@ -35,7 +36,6 @@
     position: relative;
     aspect-ratio: 3/4;
     width: 100%;
-    overflow: hidden;
   }
 
   .blur-thumb {
@@ -43,7 +43,12 @@
     height: 100%;
     object-fit: cover;
     filter: blur(10px);
-    transform: scale(1.1);
+    transform: scale(1.03);
+    transition: opacity 0.35s ease;  
+  }
+
+  .hidden {
+    opacity: 0;
   }
 
   img:not(.blur-thumb) {
@@ -51,9 +56,8 @@
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.35s ease;
   }
 
   .loaded {
